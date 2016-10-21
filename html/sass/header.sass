@@ -1,0 +1,296 @@
+@import "bourbon"
+@import "vars.sass"
+
+
+body
+	font-size: 16px
+	min-width: 320px
+	position: relative
+	line-height: 1.6
+	font-family: "RobotoRegular", sans-serif
+	overflow-x: hidden
+	background-image: url("../img/bg.jpg")
+
+.hidden
+	display: none
+
+strong, b
+	font-family: "RobotoBold", sans-serif
+
+h1, h2, h3, h4, h5, h6
+	font-family: "Museo300regular", sans-serif
+
+li
+	list-style-type: none
+
+/**********main-header start*********/
+
+.container
+	max-width: 1000px
+
+.bar-top
+	padding: 15px 0
+	margin: 0 auto
+	.top-social
+		.social-list
+			margin: 0
+			text-align: right
+			.soc-icon
+				display: inline-block
+				a
+					background-image: url("../img/sprite-pattydoo-soс.png")
+					width: 42px
+					display: block
+					height: 42px
+
+.soc-icon					
+	.facebook
+		background-position: 0 -86px
+	.facebook:hover
+		background-position: 0 -213px
+	.pinterest
+		background-position: 0 -128px
+	.pinterest:hover
+		background-position: 0 -171px
+	.youtube
+		background-position: 0 -42px
+	.youtube:hover
+		background-position: 0 -256px
+	.insta:hover
+		background-position: 0 -299px
+
+.lang-menu
+	display: inline-block
+	vertical-align: top
+	margin-top: 10px
+	.ico-flag-en
+		display: block
+		background-image: url("../img/flag.png")
+		background-repeat: no-repeat
+		background-position: 22px
+		font-size: em(15px)
+		.fa
+			padding-left: 22px
+
+.top-menu
+	padding-top: 15px
+	.sf-menu
+		margin-bottom: 0
+		li
+			background-color: $main-color
+			margin-right: 5px
+			border-radius: 7px 7px 0 0
+			&:hover
+				background-color: #71abd3
+			a
+				color: #fff
+				text-transform: uppercase
+				font-family: "RobotoBold", sans-serif
+				font-weight: bold
+				font-size: em(18px)
+		.sub-menu
+			background-color: #fff
+			border-radius: 10px 
+			min-width: 240px
+			padding: 0px 10px 
+			&::after
+				content: ''
+				height: 20px;
+				width: 25px;
+				background-color: #fff;
+				z-index: 1
+				position: absolute
+				background-color: #fff
+				transform: rotate(44deg)
+				top: -9px
+				left: 50px
+			li
+				background-color: #fff
+				margin-right: 5px
+				a
+					color: #89b8d9
+					text-transform: uppercase
+					border-top: 1px dashed #999
+					font-family: "FuturaStd-Light", sans-serif
+					font-weight: bold
+					&:hover
+						color: $main-color
+				&:first-child a
+					border-top: none
+			.sub-menu-1
+				background-color: #fff
+				border-radius: 10px 
+				min-width: 240px
+				padding: 0px 10px 
+				margin-left: 17px
+				li
+					a
+						border-top: 1px dashed #999
+					&:first-child a
+						border-top: none
+
+/**********Mobile Menu start**********/ 
+.toggle-mnu 
+	display: block
+	width: 28px
+	height: 28px
+	float: right
+
+	span:after, span:before 
+		content: ""
+		position: absolute
+		left: 0
+		top: 9px
+
+	span:after
+		top: 18px
+
+	span 
+		position: relative
+		display: block
+
+	span, span:after, span:before
+		width: 100%
+		height: 3px
+		background-color: #fff
+		transition: all 0.3s
+		backface-visibility: hidden
+		border-radius: 2px
+
+	&.on span 
+		background-color: transparent
+
+	&.on span:before 
+		transform: rotate(45deg) translate(-1px, 0px)
+
+	&.on span:after 
+		transform: rotate(-45deg) translate(6px, -7px)
+
+.mobile-mnu
+	background-color: $main-color
+	cursor: pointer
+	text-align: center
+	padding: 5px 15px
+	b
+		color: #fff
+
+.mm-search
+	position: relative
+	.fa
+		position: absolute
+		top: 7px
+		right: 5%
+
+.mm-menu.mm-offcanvas
+	z-index: 5
+
+/**********Mobile Menu end**********/ 
+
+/********Slider start********/
+.wrapper-search
+	position: relative
+	display: block
+	text-align: right
+	padding-top: 8px
+	input
+		height: 50px
+		font-size: em(20px)
+		border-radius: 3px
+		border: $main-color 3px solid
+		position: relative
+		padding-left: 5px
+	.fa
+		font-size: 25px
+		color: $main-color
+		position: absolute
+		right: 10px
+		top: 20px
+
+.slider-wrapp
+	position: relative
+	display: block
+	text-align: center
+	border-bottom: 1px solid #dcd9d5
+	border-top: 1px solid #dcd9d5
+	background-image: url("../img/bg-slider.png")
+	background-repeat: repeat
+	border: 1px solid #dcd9d5
+	box-shadow: 0px 3px 7px 0px rgba(186,180,163,0.3)
+	.slider
+		background-image: url("../img/slide-bg2.png")
+		background-position: center
+		background-repeat: no-repeat
+		.bx-wrapper
+			width: 95%
+			margin-top: 20px
+			text-align: center
+			display: block
+			img
+				width: 100%
+
+.bx-wrapper .bx-pager.bx-default-pager a
+	background-color: $main-color !important
+
+.bx-wrapper .bx-pager.bx-default-pager a.active, .bx-wrapper .bx-pager.bx-default-pager a:focus, .bx-wrapper .bx-pager.bx-default-pager a:hover
+	background-color: #71abd3 !important
+
+.bx-wrapper .bx-controls-direction .bx-prev 
+	height: 70px
+	width: 32px
+	z-index: 1
+	background-image: url("../img/sprite.png")
+	background-repeat: no-repeat
+	background-position: -600px -91px
+	&:hover
+		background-position: -700px -91px
+	&:focus
+		background-position: -600px -91px
+
+.bx-wrapper .bx-controls-direction .bx-next
+	height: 70px
+	width: 32px
+	z-index: 1
+	background-color: transparent
+	background-image: url("../img/sprite.png")
+	background-position: -800px -91px
+	&:hover, &:active
+		background-position: -900px -91px
+	&:focus
+		background-position: -800px -91px
+
+.bx-pager .bx-default-pager
+	position: absolute
+
+
+.bx-wrapper .bx-controls-direction a
+		top: 50px
+		margin-left: 0
+		margin-right: 0
+
+.top-line-slider
+	position: absolute
+	display: block
+	width: 100%
+	background-image: url("../img/line-slide-top-bottom.png")
+	background-repeat: repeat-x
+	height: 5px
+	top: 5px
+	z-index: 3
+.bottom-line-slider
+	position: absolute
+	display: block
+	background-image: url("../img/line-slide-top-bottom1.png")
+	background-repeat: repeat-x
+	width: 100%
+	height: 5px
+	bottom: 5px
+	z-index: 3
+/********Slider end********/
+
+@import "app/libs/owl.carousel/dist/assets/owl.carousel.min"
+@import "app/libs/bxslider/dist/jquery.bxslider.min"
+
+
+
+/**********main-header end*********/
+@import "media"

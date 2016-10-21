@@ -1,0 +1,1 @@
+{"F:\\work\\pattydoo\\html\\gulpfile.js":{"sha1":"d8a350c28beef2c204fe6118f94ae761a3a5f5fd","tasks":{"browser-sync":{"name":"browser-sync","dependencies":"styles scripts"},"styles":{"name":"styles","dependencies":""},"scripts":{"name":"scripts","dependencies":""},"watch":{"name":"watch","dependencies":""},"default":{"name":"default","dependencies":"browser-sync watch"}}}}

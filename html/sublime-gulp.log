@@ -1,0 +1,126 @@
+Remember that you can report errors and get help in https://github.com/NicoSantangelo/sublime-gulp
+
+09-18-2016 18:07:
+F:\work\pattydoo\html\.sublime-gulp-tmp.js:41
+		'./app/bxslider-4/dist/jquery.bxslider.min.js'
+		^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+
+SyntaxError: Unexpected string
+    at exports.runInThisContext (vm.js:53:16)
+    at Module._compile (module.js:387:25)
+    at Object.Module._extensions..js (module.js:422:10)
+    at Module.load (module.js:357:32)
+    at Function.Module._load (module.js:314:12)
+    at Module.require (module.js:367:17)
+    at require (internal/module.js:20:19)
+    at requireGulp (C:\Users\Dima\AppData\Roaming\Sublime Text 3\Packages\Gulp\write_tasks_to_cache.js:28:16)
+    at Object.<anonymous> (C:\Users\Dima\AppData\Roaming\Sublime Text 3\Packages\Gulp\write_tasks_to_cache.js:83:12)
+    at Module._compile (module.js:413:34)
+
+
+09-18-2016 18:08:
+F:\work\pattydoo\html\.sublime-gulp-tmp.js:41
+		'./app/bxslider-4/dist/jquery.bxslider.min.js'
+		^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+
+SyntaxError: Unexpected string
+    at exports.runInThisContext (vm.js:53:16)
+    at Module._compile (module.js:387:25)
+    at Object.Module._extensions..js (module.js:422:10)
+    at Module.load (module.js:357:32)
+    at Function.Module._load (module.js:314:12)
+    at Module.require (module.js:367:17)
+    at require (internal/module.js:20:19)
+    at requireGulp (C:\Users\Dima\AppData\Roaming\Sublime Text 3\Packages\Gulp\write_tasks_to_cache.js:28:16)
+    at Object.<anonymous> (C:\Users\Dima\AppData\Roaming\Sublime Text 3\Packages\Gulp\write_tasks_to_cache.js:83:12)
+    at Module._compile (module.js:413:34)
+
+
+09-18-2016 18:08:
+F:\work\pattydoo\html\.sublime-gulp-tmp.js:41
+		'./app/bxslider-4/dist/jquery.bxslider.min.js'
+		^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+
+SyntaxError: Unexpected string
+    at exports.runInThisContext (vm.js:53:16)
+    at Module._compile (module.js:387:25)
+    at Object.Module._extensions..js (module.js:422:10)
+    at Module.load (module.js:357:32)
+    at Function.Module._load (module.js:314:12)
+    at Module.require (module.js:367:17)
+    at require (internal/module.js:20:19)
+    at requireGulp (C:\Users\Dima\AppData\Roaming\Sublime Text 3\Packages\Gulp\write_tasks_to_cache.js:28:16)
+    at Object.<anonymous> (C:\Users\Dima\AppData\Roaming\Sublime Text 3\Packages\Gulp\write_tasks_to_cache.js:83:12)
+    at Module._compile (module.js:413:34)
+
+
+09-18-2016 18:08:
+F:\work\pattydoo\html\.sublime-gulp-tmp.js:41
+		'./app/bxslider-4/dist/jquery.bxslider.min.js'
+		^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+
+SyntaxError: Unexpected string
+    at exports.runInThisContext (vm.js:53:16)
+    at Module._compile (module.js:387:25)
+    at Object.Module._extensions..js (module.js:422:10)
+    at Module.load (module.js:357:32)
+    at Function.Module._load (module.js:314:12)
+    at Module.require (module.js:367:17)
+    at require (internal/module.js:20:19)
+    at requireGulp (C:\Users\Dima\AppData\Roaming\Sublime Text 3\Packages\Gulp\write_tasks_to_cache.js:28:16)
+    at Object.<anonymous> (C:\Users\Dima\AppData\Roaming\Sublime Text 3\Packages\Gulp\write_tasks_to_cache.js:83:12)
+    at Module._compile (module.js:413:34)
+
+
+09-18-2016 18:09:
+F:\work\pattydoo\html\.sublime-gulp-tmp.js:41
+		'./app/bxslider-4/dist/jquery.bxslider.min.js'
+		^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+
+SyntaxError: Unexpected string
+    at exports.runInThisContext (vm.js:53:16)
+    at Module._compile (module.js:387:25)
+    at Object.Module._extensions..js (module.js:422:10)
+    at Module.load (module.js:357:32)
+    at Function.Module._load (module.js:314:12)
+    at Module.require (module.js:367:17)
+    at require (internal/module.js:20:19)
+    at requireGulp (C:\Users\Dima\AppData\Roaming\Sublime Text 3\Packages\Gulp\write_tasks_to_cache.js:28:16)
+    at Object.<anonymous> (C:\Users\Dima\AppData\Roaming\Sublime Text 3\Packages\Gulp\write_tasks_to_cache.js:83:12)
+    at Module._compile (module.js:413:34)
+
+
+09-18-2016 18:12:
+F:\work\pattydoo\html\.sublime-gulp-tmp.js:41
+		'./app/libs/owl.carousel/dist/owl.carousel.min.js'
+		^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+
+SyntaxError: Unexpected string
+    at exports.runInThisContext (vm.js:53:16)
+    at Module._compile (module.js:387:25)
+    at Object.Module._extensions..js (module.js:422:10)
+    at Module.load (module.js:357:32)
+    at Function.Module._load (module.js:314:12)
+    at Module.require (module.js:367:17)
+    at require (internal/module.js:20:19)
+    at requireGulp (C:\Users\Dima\AppData\Roaming\Sublime Text 3\Packages\Gulp\write_tasks_to_cache.js:28:16)
+    at Object.<anonymous> (C:\Users\Dima\AppData\Roaming\Sublime Text 3\Packages\Gulp\write_tasks_to_cache.js:83:12)
+    at Module._compile (module.js:413:34)
+
+
+09-23-2016 14:13:
+F:\work\pattydoo\html\.sublime-gulp-tmp.js:42
+		'./app/libs/magnific-popup/dist/jquery.magnific-popup.min.js'
+		^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+
+SyntaxError: Unexpected string
+    at exports.runInThisContext (vm.js:53:16)
+    at Module._compile (module.js:387:25)
+    at Object.Module._extensions..js (module.js:422:10)
+    at Module.load (module.js:357:32)
+    at Function.Module._load (module.js:314:12)
+    at Module.require (module.js:367:17)
+    at require (internal/module.js:20:19)
+    at requireGulp (C:\Users\Dima\AppData\Roaming\Sublime Text 3\Packages\Gulp\write_tasks_to_cache.js:28:16)
+    at Object.<anonymous> (C:\Users\Dima\AppData\Roaming\Sublime Text 3\Packages\Gulp\write_tasks_to_cache.js:83:12)
+    at Module._compile (module.js:413:34)
